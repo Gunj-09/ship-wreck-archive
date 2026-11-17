@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains DB password - never commit this)
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite build output
+client/dist/
+
+# Debug scripts (optional cleanup)
+server/verify_data.js
+server/list_dbs.js
+server/list_tables.js
+server/test_db.js
